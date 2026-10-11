@@ -1,0 +1,13 @@
+# local dev
+.venv/
+__pycache__/
+*.pyc
+*.log
+
+# large / private data — the app only needs assets/*.npy
+*.h5
+*.zip
+
+# server-deploy internals (contain private server paths — never publish)
+DEPLOY.md
+chatgpt-deploy-prompt-v2.md
